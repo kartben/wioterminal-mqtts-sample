@@ -18,6 +18,8 @@ Use the [PlatformIO IDE](https://marketplace.visualstudio.com/items?itemName=pla
 
 Once running, the sample will connect to the public MQTT server running at ``mqtt.eclipse.org`` over TLS, publish "Hello from Wio Terminal" on the ``outTopic`` topic, and print on the serial output the contents of any message received on ``inTopic``.
 
+If you'd like to use a different MQTT broker, you will need to update the ``test_root_ca`` variable accordingly (it should be set to the root CA for the server you want to connect to).
+
 IMPORTANT: A mistake that is often done when using the PubSubClient for real-world project, is to not pay attention to the fact that, by default, it's defining a maximum MQTT message size of 256 bytes. Make sure to call ``PubSubClient::setBufferSize(size)`` with the desired message size is 256 bytes is not enough for your application.
 
 ## Author
