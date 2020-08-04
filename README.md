@@ -35,7 +35,7 @@ IMPORTANT: A mistake that is often done when using the PubSubClient for real-wor
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/kartben/mxchip-serial-capture/issues).
+Feel free to check [issues page](https://github.com/kartben/wioterminal-mqtts-sample/issues).
 
 ## Show your support
 
