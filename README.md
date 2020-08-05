@@ -1,8 +1,7 @@
 # Welcome to wioterminal-mqtt-sample 👋
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
 [![Twitter: kartben](https://img.shields.io/twitter/follow/kartben.svg?style=social)](https://twitter.com/kartben)
-[![Build Status](https://travis-ci.org/kartben/wioterminal-mqtts-sample.svg?branch=master)](https://travis-ci.org/kartben/wioterminal-mqtts-sample)
-
+[![PlatformIO CI](https://github.com/kartben/wioterminal-mqtts-sample/workflows/PlatformIO%20CI/badge.svg)](https://github.com/kartben/wioterminal-mqtts-sample/actions?query=workflow%3A%22PlatformIO+CI%22)
 This sample application shows you how to use MQTT over TLS on the [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) from Seeed Studio. 
 
 As [PlatformIO](https://platformio.org/) [supports](https://docs.platformio.org/en/latest/boards/atmelsam/seeed_wio_terminal.html) the Wio Terminal, the sample comes in the form a PlatformIO project. This means that you don't have to worry about installing the [multiple Arduino libraries](https://wiki.seeedstudio.com/Wio-Terminal-Network-Overview/) the Wio Terminal requires for Wi-Fi & TLS, and you don't need to manually install the PubSubClient MQTT library either. All dependencies are automatically fetched from Github by the PlatformIO Library Manager.
